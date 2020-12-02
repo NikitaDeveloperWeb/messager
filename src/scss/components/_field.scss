@@ -1,0 +1,21 @@
+@import '../base/variable';
+.field {
+  width: 250px;
+  height: 40px;
+  border: 1px solid $fieldBorderColor;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  &::placeholder {
+    letter-spacing: 3px;
+  }
+  &:focus {
+    border: 1.4px solid $fieldFocusColor;
+    letter-spacing: 1px;
+    &::placeholder {
+      visibility: hidden;
+    }
+  }
+}

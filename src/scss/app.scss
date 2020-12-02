@@ -1,0 +1,13 @@
+//setting
+@import './base/normalize', './base/variable';
+//components
+@import './components/field', './components/button', './components/form', './components/dialogs',
+  './components/message', './components/navigation';
+//pages
+@import './pages/signIn', './pages/signUp', './pages/restore', './pages/home', './pages/search',
+  './pages/setting';
+.app_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}

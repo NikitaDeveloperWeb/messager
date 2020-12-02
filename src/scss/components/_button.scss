@@ -1,0 +1,15 @@
+@import '../base/variable';
+
+.button {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+  background-color: $buttonColor;
+  &:hover {
+    background-color: $buttonHoverColor;
+  }
+}
